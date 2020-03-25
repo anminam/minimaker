@@ -1,6 +1,6 @@
 import React from "react";
 import ConfigOption from "components/configOption";
-import ElementView from "containers/ElementView";
+import ElementView from "components/ElementView";
 
 const Middle = () => {
     return (

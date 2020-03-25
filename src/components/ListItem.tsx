@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 
 interface IListItem {
     name: string
@@ -6,9 +7,9 @@ interface IListItem {
 
 const ListItem = ({name}:IListItem) => {
     return (
-        <a className="listItem" title={name} href={name}>
+        <Link to={`/${name}`} className="listItem">
             <span>{name}</span>
-        </a>
+        </Link>
     )
 }
 

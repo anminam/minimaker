@@ -1,3 +1,14 @@
 .listItem {
-    width:100%
+    display: block;
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #333333;
+
+    &:hover {
+        background: rgba(0,0,0,.05);
+    }
 }
