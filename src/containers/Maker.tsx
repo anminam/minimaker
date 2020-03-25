@@ -1,9 +1,14 @@
 import React from "react";
-
+import List from "./List";
+import Middle from "./Middle";
+import Code from "./Code";
+import 'style/index.scss'
 const Maker = () => {
     return (
         <div className="maker">
-            메이커
+            <List />
+            <Middle />
+            <Code />
         </div>
     )
 }

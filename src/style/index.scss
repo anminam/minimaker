@@ -1,0 +1,40 @@
+@import './reset.css';
+@import './prism.css';
+@import './ListItem.scss';
+
+html, body, #root, .App {
+    height: 100%;
+}
+
+.maker {
+    height: 100%;
+    display: flex;
+    
+    > .container {
+        height: 100%;
+    }
+
+    .list {
+        flex: 1;
+        background-color: #ac7979;
+    }
+
+    .middle {
+        flex: 2;
+        background-color: #006134;
+
+        > div {
+            height: 50%;
+        }
+    }
+
+    .code {
+        flex: 2;
+        background-color: #bcceff;
+    }
+
+}
+
+.element {
+    background-color: #b8b8b8;
+}
